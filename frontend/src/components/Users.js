@@ -12,7 +12,7 @@ const Users = () => {
 
   const displayUsers = async () => {
     try {
-      const response = await axios.get('http://localhost:3001/api/v1/users/userDetails', {
+      const response = await axios.get('https://project1-1-1yu5.onrender.com/api/v1/users/userDetails', {
         withCredentials: true,
       });      
       //console.log(response.data); 

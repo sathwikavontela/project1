@@ -25,8 +25,8 @@ const Signup = () => {
     e.preventDefault();
     setError('');
     try {
-      const response = await axios.post('http://localhost:3001/api/v1/users/create-user', formData);
-      console.log("User created successfully");
+      const response = await axios.post('https://project1-1-1yu5.onrender.com/api/v1/users/create-user', formData);
+      console.log("User created successfully",response);
       alert("User created successfully");
       navigate('/login');
     } catch (error) {

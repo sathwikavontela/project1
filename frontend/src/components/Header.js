@@ -8,7 +8,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   const Logout = async () => {
-    const url = 'http://localhost:3001/api/v1/users/logout';
+    const url = 'https://project1-1-1yu5.onrender.com/api/v1/users/logout';
 
     try {
       const response = await axios.post(url, {}, { withCredentials: true });
