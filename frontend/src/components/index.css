@@ -1,0 +1,490 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.image-logo {
+    width: 20px;
+    height: 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #7c7878;
+    border-radius: 5px;
+}
+
+
+.highlight-section{
+    padding: 10px 20px;
+    background-color: rgb(236, 203, 94);
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.highlight-subSection{
+    background-color: rgb(214, 153, 20);
+    padding: 10px 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width:100%;
+    color: white;
+    font-family:'Lora', serif;
+    line-height: 2em;
+
+}
+.trending-section{
+    background-color: whitesmoke;
+    border: #333 ;
+    border-radius: 0.2em;
+    padding: 10px 20px;
+    margin-top: 1.2em;
+}
+.trending-topic-heading{
+    color: #7c7878;
+    font-weight: 400;
+    text-align: start;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    font-family:'Lora', serif;
+    
+}
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 0.5em;
+}
+
+.trending-cards {
+    height: 10em;
+    border: 1px solid #e0d4d4;
+    border-radius: 1em;
+    padding: 10px;
+    text-align: center;
+}
+.trending-cards:hover {
+    transform: translateY(-10px); 
+}
+
+
+.imageCard {
+    height: 5em;
+    width: 100%; 
+    object-fit: cover;
+}
+.trending-cards p{
+    font-size: 0.8em;
+    margin-top: .2em;
+}
+
+.featured-articles {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    
+}
+
+.featured-heading {
+    font-size:1.3em;
+    margin-bottom: 20px;
+    color: #bdb8b8;
+    text-align: start;
+    font-family:'Lora', serif;
+    
+}
+
+.featured-articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.featured-article {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    padding: 20px;
+}
+
+.featured-article:hover {
+    transform: translateY(-5px);
+}
+
+.featured-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.featured-title {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.featured-description {
+    color: #555;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.read-more {
+    font-size: 1em;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+.simple-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-links, .social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li, .social-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a, .social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.footer-links a:hover, .social-links a:hover {
+    color: #f39c12; 
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 0.9em;
+    color: #bbb;
+}
+.way2news-stats {
+    background-color: #000;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.way2news-stats h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.way2news-stats p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.stats-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+}
+
+.stat-card .stat-value {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f39c12;
+}
+
+.stat-card .stat-label {
+    font-size: 1.1em;
+}
+
+.footer-text {
+    font-size: 1.1em;
+    color: #bbb;
+}
+.blogs-section {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.blogs-heading {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.blogs-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.blog-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px); 
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+.card-description {
+    font-size: .7em;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.read-more {
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #e67e22;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+  }
+  
+  .formContainer {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputContainer {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #5e8ebf;
+  }
+  
+  .button {
+    background-color: #5e8ebf;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #4c77a1;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #5d9bfb;
+  }
+  
+  button.signup-btn {
+    background-color: #5d9bfb;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.signup-btn:hover {
+    background-color: #4a8cd4;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  @media (max-width: 480px) {
+    .signup-container {
+      padding: 1rem;
+    }
+  
+    .signup-heading {
+      font-size: 1.5rem;
+    }
+  }
+    
