@@ -1,4 +1,4 @@
-import Header from "./Header"
+
 
 const Homepage = ()=>{
     return(
@@ -15,39 +15,39 @@ const Homepage = ()=>{
                 <h1 className="trending-topic-heading">Trending topics</h1>
                 <div className="topics-grid">
                     <div className="trending-cards">
-                            <img className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
+                            <img alt="trending" className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
                             <p>Trump decides to send all the indians to home town</p>
                     </div>
                     <div className="trending-cards">
-                            <img className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
+                            <img alt="trending" className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
                             <p>Trump decides to send all the indians to home town</p>
                     </div>
                     <div className="trending-cards">
-                            <img className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
+                            <img alt="trending" className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
                             <p>Trump decides to send all the indians to home town</p>
                     </div>
                     <div className="trending-cards">
-                            <img className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
+                            <img alt="trending" className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
                             <p>Trump decides to send all the indians to home town</p>
                     </div>
                     <div className="trending-cards">
-                            <img className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
+                            <img  alt="trending" className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
                             <p>Trump decides to send all the indians to home town</p>
                     </div>
                     <div className="trending-cards">
-                            <img className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
+                            <img alt="trending" className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
                             <p>Trump decides to send all the indians to home town</p>
                     </div>
                     <div className="trending-cards">
-                            <img className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
+                            <img alt="trending" className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
                             <p>Trump decides to send all the indians to home town</p>
                     </div>
                     <div className="trending-cards">
-                            <img className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
+                            <img alt="trending" className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
                             <p>Trump decides to send all the indians to home town</p>
                     </div>
                     <div className="trending-cards">
-                            <img className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
+                            <img alt="trending" className="imageCard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUaT7DDNoxplqwJKE0R3BoimC1eF83xDZzQ&s"/>
                             <p>Trump decides to send all the indians to home town</p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const Homepage = ()=>{
                 <h2 className="featured-heading">Featured Articles</h2>
                 <div className="featured-articles-grid">
                     <div className="featured-article">
-                        <img className="featured-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrYmGSTfXdszzg8IdOVNR-4FDBgZCUkma-w&s" alt="Article 1" />
+                        <img  className="featured-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrYmGSTfXdszzg8IdOVNR-4FDBgZCUkma-w&s" alt="Article 1" />
                         <h3 className="featured-title">Article Title 1</h3>
                         <p className="featured-description">This is a short description of the first featured article. It gives a brief overview of the content.</p>
                         <a href="/article1" className="read-more">Read More</a>
@@ -109,7 +109,8 @@ const Homepage = ()=>{
                         <div class="card-content">
                             <h3 class="card-title">Understanding the Latest Trends in Politics</h3>
                             <p class="card-description">Stay updated on the latest political news and trends. This blog delves into the ongoing political developments and their impact on society. Read on for a detailed analysis.</p>
-                            <a href="#" class="read-more">Read More</a>
+                            <button className="read-more">Read More</button>
+
                         </div>
                     </div>
                     
@@ -118,7 +119,8 @@ const Homepage = ()=>{
                         <div class="card-content">
                             <h3 class="card-title">Technology and Innovation in 2023</h3>
                             <p class="card-description">The tech world is evolving rapidly. In this blog, we explore the latest innovations in tech, their potential applications, and what the future holds for the industry.</p>
-                            <a href="#" class="read-more">Read More</a>
+                            <button className="read-more">Read More</button>
+
                         </div>
                     </div>
                     <div class="blog-card">
@@ -126,7 +128,8 @@ const Homepage = ()=>{
                         <div class="card-content">
                             <h3 class="card-title">The Future of Environmental Conservation</h3>
                             <p class="card-description">As the climate crisis intensifies, it's more important than ever to focus on sustainable practices. This blog discusses the future of environmental conservation and how we can protect our planet.</p>
-                            <a href="#" class="read-more">Read More</a>
+                            <button className="read-more">Read More</button>
+
                         </div>
                     </div>
                 </div>

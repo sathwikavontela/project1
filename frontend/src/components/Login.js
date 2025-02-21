@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 import './index.css';
-import Cookie from "js-cookie";
+
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -19,7 +19,10 @@ const Login = () => {
 
       console.log(response.data);
       
-      Cookie.set("userToken", response.data.token); 
+      
+      localStorage.setItem('userToken', response.data.token); 
+      localStorage.setItem('user', JSON.stringify(response.data.user)); 
+      console.log(localStorage.getItem('userToken'));
     
       navigate('/users');
     } catch (error) {

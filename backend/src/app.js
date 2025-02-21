@@ -17,8 +17,7 @@ app.use(cookieParser());
 
 
 app.use('/api/v1/users',userRoutes)
-
-
+app.get('/',(req,res)=>res.send("Welcome"));
 
 export default app;
 

@@ -51,13 +51,13 @@ const loginUser = async (req, res) => {
         const userToken = await userExists.generateAccessToken();
         //console.log(userToken);
         const options = {
-            httpOnly: true,
             secure: true,
             sameSite: "None",
         };
         return res.status(200)
             .cookie("userToken", userToken, options)
             .json({
+                token:userToken,
                 user: {
                     _id: userExists._id,
                     username: userExists.username,
